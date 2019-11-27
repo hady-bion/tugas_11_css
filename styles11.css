@@ -1,0 +1,23 @@
+header{
+    background-color: black;
+    color: white;
+}
+
+.content{
+    column-width: 20px;
+    column-count: 4;
+    column-rule: 5px double black;
+    column-fill: balance;
+    text-align: justify;
+}
+
+.span{
+    column-span: all;
+}
+
+.footer{
+    background-color: black;
+    color: white !important;
+    text-align: center;
+    padding-bottom: 1px;
+}
